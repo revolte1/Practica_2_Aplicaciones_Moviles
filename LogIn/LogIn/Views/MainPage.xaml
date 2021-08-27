@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LogIn.MainPage">
+
+    <StackLayout>
+
+        <Image Source="emblema_intec.jpg" WidthRequest="100" HeightRequest="100" Margin="0,100,0,0"/>
+
+
+        <StackLayout Padding="30,10,30,10">
+            <Entry x:Name="userEntry" Placeholder="Usuario" PlaceholderColor="Black" />
+            <Entry x:Name="passwordEntry" Placeholder="Contraseña" PlaceholderColor="Black" IsPassword="True"/>
+            <Button Text="Iniciar" TextColor="Black" Clicked="OnButtonClicked" />
+            <Button Text="Sign Up" TextColor="Black" Clicked="OnButtonClicked2" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
